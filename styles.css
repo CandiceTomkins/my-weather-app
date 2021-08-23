@@ -1,0 +1,77 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background: none;
+  max-width: 800px;
+  border: solid #abdac3 0.5px;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 6px;
+  font-weight: 700;
+  color: orangered;
+}
+h2 {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #78afdf;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  color: #abdac3;
+}
+.temperature {
+  color: #f7b632;
+  font-size: 30px;
+  font-weight: 500;
+}
+.units {
+  color: #f7b632;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button-go {
+  background: #abdac3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px;
+  transition: all 200ms ease-in;
+}
+button:hover {
+  background: orangered;
+}
+
+.main-info {
+  border: none;
+  display: inline;
+}
+
+.day-icon {
+  display: inline;
+}
+
+.weekly-info {
+  text-align: center;
+}
+
+.coded-by {
+  text-align: center;
+  font-family: monospace;
+  font-size: 14px;
+  color: #abdac3;
+}
